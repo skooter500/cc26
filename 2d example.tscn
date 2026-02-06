@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://gwyq45ktbklq"]
+
+[ext_resource type="Script" uid="uid://clkssh83n3yqg" path="res://player.gd" id="1_6qujg"]
+[ext_resource type="Script" uid="uid://dsnm1p2wybonq" path="res://2d_example.gd" id="1_36mrl"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_pctig"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_36mrl"]
+size = Vector2(50, 50)
+
+[node name="2d_draw" type="Node2D" unique_id=563201940]
+script = ExtResource("1_36mrl")
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=354019685]
+position = Vector2(436, 268)
+script = ExtResource("1_6qujg")
+
+[node name="Sprite2D" type="Sprite2D" parent="player" unique_id=77431717]
+modulate = Color(0.31764707, 1, 1, 1)
+scale = Vector2(50, 50)
+texture = SubResource("CanvasTexture_pctig")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=913376379]
+shape = SubResource("RectangleShape2D_36mrl")
+
+[node name="text_label" type="Label" parent="." unique_id=2051218255]
+offset_left = 97.0
+offset_top = 131.0
+offset_right = 137.0
+offset_bottom = 154.0
