@@ -60,9 +60,11 @@ Try these if statement exercises:
 
 [![YouTube](http://img.youtube.com/vi/18kMOeygmHA/0.jpg)](https://www.youtube.com/watch?v=18kMOeygmHA)
 
+Import some sprites and get them moving around!
+
 Check out any of the Godot projects on [my github repo](http://github.com/skooter500) for ideas.
 
-Take screenshots of whatever you create today and upload to Brightspace to get your mark for this week.
+Take screenshots of whatever you create today and upload [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNURUwwN04xREJaSENNSlNDU1g2RDAyV09LUS4u)
 
 - [Learn how to use bash and git](https://github.com/skooter500/csresources/blob/main/gitlab.md)
 
