@@ -25,7 +25,7 @@ Greetings fellow octopus
 
 ### Learning Outcomes
 - Godot workflows
-- Problem solving
+- Creatinve problem solving and analysis
 - Creating a visual system from code
 - Undetstanding the relationship between color and shapes and code
 - For loop
@@ -60,19 +60,11 @@ Try these if statement exercises:
 
 [![YouTube](http://img.youtube.com/vi/18kMOeygmHA/0.jpg)](https://www.youtube.com/watch?v=18kMOeygmHA)
 
-Check out any of the Godot projects on [my github repo]() for ideas
+Check out any of the Godot projects on [my github repo](http://github.com/skooter500) for ideas.
 
 Take screenshots of whatever you create today and upload to Brightspace to get your mark for this week.
 
-## Week 2 - Python Fundamentals
-
-### Lab
-
-
 - [Learn how to use bash and git](https://github.com/skooter500/csresources/blob/main/gitlab.md)
-
-Download and open Godot on the lab computers. You can use the Web editor if any issues!
-
 
 
 ## Week 2 - Intro to Godot
