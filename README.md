@@ -20,7 +20,60 @@ Greetings fellow octopus
 - [Godot for beginners](https://www.youtube.com/watch?v=LOhfqjmasi0)
 - [GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)
 - [5 Games Made in Godot to inspire you each week](https://www.youtube.com/@stayathomedev) 
-- [Godot XR Development]()
+
+## Week 3 Lab - Drawing with Code
+
+### Learning Outcomes
+- Godot workflows
+- Problem solving
+- Creating a visual system from code
+- Undetstanding the relationship between color and shapes and code
+- For loop
+- if statement
+- Computational thinking
+
+use the functions in _draw() to create the following patterns:
+
+![Sketch](images/p31.png)
+
+![Sketch](images/p35.png)
+
+![Sketch](images/p36.png)
+
+![Sketch](images/p34.png)
+
+![Sketch](images/p33.png)
+
+![Sketch](images/p32.png)
+
+![Sketch](images/p27.png)
+
+![Sketch](images/p27.png)
+
+![Sketch](images/p23.png)
+
+![Sketch](images/p10.png)
+
+![Sketch](images/p29.png)
+
+Try these if statement exercises:
+
+[![YouTube](http://img.youtube.com/vi/18kMOeygmHA/0.jpg)](https://www.youtube.com/watch?v=18kMOeygmHA)
+
+Check out any of the Godot projects on [my github repo]() for ideas
+
+Take screenshots of whatever you create today and upload to Brightspace to get your mark for this week.
+
+## Week 2 - Python Fundamentals
+
+### Lab
+
+
+- [Learn how to use bash and git](https://github.com/skooter500/csresources/blob/main/gitlab.md)
+
+Download and open Godot on the lab computers. You can use the Web editor if any issues!
+
+
 
 ## Week 2 - Intro to Godot
 - Godot 2D and 3D examples
