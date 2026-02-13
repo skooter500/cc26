@@ -10,7 +10,7 @@ func _process(delta: float) -> void:
 	pass
 
 func _physics_process(delta: float) -> void:
-	$"../text_label".text = "Transform.x: " + str(transform.x) + "\n" + "Transform.y: " + str(transform.y)
+	# $"../text_label".text = "Transform.x: " + str(transform.x) + "\n" + "Transform.y: " + str(transform.y)
 	var f = Input.get_axis("forwards", "backwards")
 	# print(f)
 	# translate(transform.y * f * speed * delta)

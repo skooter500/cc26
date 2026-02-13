@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Creative Coding  for AI & Data Science"
-run/main_scene="res://2d example.tscn"
+run/main_scene="uid://cspy5n7863cgc"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdfxr/plugin.cfg")
 
 [input]
 
