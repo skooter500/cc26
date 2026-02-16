@@ -1,12 +1,6 @@
 [gd_scene format=3 uid="uid://cq8h2wxypufa0"]
 
 [ext_resource type="Script" uid="uid://6aao3udx4ekh" path="res://examples/mouse_test.gd" id="1_5keuc"]
-[ext_resource type="Script" uid="uid://nguwqvvy431x" path="res://examples/SineWaveGenerator.gd" id="2_8x0ln"]
 
 [node name="Node2D" type="Node2D" unique_id=635299360]
 script = ExtResource("1_5keuc")
-
-[node name="sinwavegenerator" type="Node" parent="." unique_id=169430200]
-script = ExtResource("2_8x0ln")
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="sinwavegenerator" unique_id=1964640429]
