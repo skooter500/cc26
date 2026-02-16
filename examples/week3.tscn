@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cspy5n7863cgc"]
+
+[ext_resource type="Script" uid="uid://degkmrbdyk73o" path="res://examples/week_3.gd" id="1_4frk3"]
+[ext_resource type="AudioStream" uid="uid://c8bks1guleu5l" path="res://sounds/soundeffect.sfxr" id="2_waoog"]
+[ext_resource type="AudioStream" uid="uid://douk850dcvp5v" path="res://sounds/Electric Traditions.mp3" id="3_jj0sa"]
+[ext_resource type="Script" uid="uid://csky3p1vblexd" path="res://examples/space_ship.gd" id="4_om14o"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_4frk3"]
+
+[node name="week3" type="Node2D" unique_id=289256183]
+script = ExtResource("1_4frk3")
+
+[node name="Button" type="Button" parent="." unique_id=1149641446]
+offset_left = 332.0
+offset_top = 83.0
+offset_right = 473.0
+offset_bottom = 114.0
+text = "Create RigidBody"
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=421260348]
+position = Vector2(219, 490.99997)
+rotation = 0.12395108
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2027276722]
+shape = SubResource("WorldBoundaryShape2D_4frk3")
+
+[node name="Label" type="Label" parent="." unique_id=598951823]
+offset_left = 88.0
+offset_top = 178.0
+offset_right = 128.0
+offset_bottom = 201.0
+text = "Count:"
+
+[node name="create_count" type="TextEdit" parent="." unique_id=144155460]
+offset_left = 183.0
+offset_top = 167.0
+offset_right = 414.0
+offset_bottom = 209.0
+text = "10"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1320767744]
+stream = ExtResource("2_waoog")
+
+[node name="background_musi" type="AudioStreamPlayer" parent="." unique_id=1643493508]
+stream = ExtResource("3_jj0sa")
+autoplay = true
+
+[node name="HSlider" type="HSlider" parent="." unique_id=1869031649]
+offset_left = 132.0
+offset_top = 279.0
+offset_right = 543.0
+offset_bottom = 295.0
+min_value = 0.01
+max_value = 1.5
+step = 0.1
+value = 0.01
+
+[node name="space_ship" type="CharacterBody2D" parent="." unique_id=395747172]
+script = ExtResource("4_om14o")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
