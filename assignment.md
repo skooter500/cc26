@@ -13,9 +13,8 @@ Using Godot!
 	- Playing back patterns of notes or sounds
 	- Generating sequences of notes or sounds based on an algorithm
 	- Added and controlling effects such as delay and reverb or pitch
+    - Taking input from keyboard, mouse, touch screen, xr contrtollers, midi controllers, the microphone
 	- Generating a visual story of a song
-- You can take input from keyboard, mouse, touch screen, xr contrtollers, midi controllers, the microphone
-- You can incorporate visual elements in 2D or 3D or XR that respond to sound to make your project more visually appealing
 - You will keep your project in a git repo.
 
 Hologrampic Examples:
@@ -24,10 +23,9 @@ Hologrampic Examples:
 2D Examples:
 - https://www.youtube.com/watch?v=xnbHNQOCXSU&list=PL1n0B6z4e_E7PV9bmzFDRow2Qoe1MOqvo
 
-3D Examples:
-
 Previous Creative Coding Projects:
-- 
+
+- https://www.youtube.com/watch?v=tqMkc-_airg&list=PL1n0B6z4e_E5apcm1SQxlNqLEez2IxnJI
 
 Form a band with a few of your class mates and at the end of the semester, your band will do a live performance for me and the rest of the class. There be two parts:
 
