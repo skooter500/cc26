@@ -1,6 +1,6 @@
 extends Node2D
 
-var num_points = 10
+var num_points = 100
 	
 func _ready() -> void:
 	num_points = int($"../Label2".text)
@@ -32,19 +32,21 @@ func draw_star():
 		# draw_circle(Vector2(x, y), 10, c)
 		draw_line(Vector2(x, y), Vector2(x1, y1), c, 10)
 
-var num_arms = 5
+var num_arms = 20
 
 func draw_spiral():
 	var r = 5
 		
 	var theta = 0
+	var theta_inc = 2.0 * PI / float(num_points)
 	for j in range(num_arms):	
-		for i in range(num_points):
-			r += 5
-			theta += 0.1
+		
+		for i in range(num_points):			
+			theta += theta_inc			
 			var x = cos(theta) * r
 			var y = sin(theta) * r
-			var theta1 = theta + 0.1
+			r += 10
+			var theta1 = theta + theta_inc
 			var x1 = cos(theta1) * r
 			var y1 = sin(theta1) * r
 			

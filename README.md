@@ -32,8 +32,8 @@ I encourage you NOT to use AI for this task and instead to contemplate the task 
 
 Upload to brightspace at least:
 
-- 1 photo
-- 1 screenshot of your flower generator
+- 1 photo (multiple preferred)
+- 1 screenshot of your flower generator (multiple preferred!)
 - Your code
 
 - [Previous examples](https://photos.app.goo.gl/TxMtsRRuDrQBonb56)
