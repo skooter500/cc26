@@ -23,6 +23,11 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	_fill_buffer()
 
+func _draw():
+	var frames_available := playback.get_frames_available()
+	for i in frames_available:
+		playback.get_f()
+	
 
 func _fill_buffer() -> void:
 	var frames_available := playback.get_frames_available()

@@ -10,6 +10,10 @@ func _process(delta: float) -> void:
 	
 	var f = (x / s.x) * 15000
 	f = remap(x, 0, s.x, 50, 10000)
+	
+	var ff = Input.get_axis("left", "right")
+	print(ff)
+	
 	$Node.set_frequency(f)
 	# $Node.set_amplitude()
 	

@@ -21,7 +21,16 @@ Greetings fellow octopus
 - [GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)
 - [5 Games Made in Godot to inspire you each week](https://www.youtube.com/@stayathomedev) 
 
-## Week 5 Lab - Create a Simple Game
+## Week 6
+
+## Lab - Spiral Jam
+
+## Week 5 
+## Lecture
+- Triangles, Spirals & loops
+
+
+## Lab - Create a Simple Game
 
 Its [Godó Gaedhleach tonight](https://www.eventbrite.ie/e/1982738409958?aff=oddtdtcreator) Fáilte!
 

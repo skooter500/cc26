@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://con8gq48e3qgp"]
+
+[ext_resource type="Script" uid="uid://cfww58uqt4o7k" path="res://week_5.gd" id="1_w556m"]
+[ext_resource type="Script" uid="uid://brily6eo4kudw" path="res://spriral.gd" id="2_bypa8"]
+[ext_resource type="Script" uid="uid://brtpy3k1vmb3" path="res://examples/osc.gd" id="3_bypa8"]
+
+[node name="Node2D" type="Node2D" unique_id=1422333361]
+script = ExtResource("1_w556m")
+
+[node name="spriral" type="Node2D" parent="." unique_id=1962757710]
+position = Vector2(382, 404)
+script = ExtResource("2_bypa8")
+
+[node name="num_points" type="HSlider" parent="." unique_id=2100060359]
+offset_left = 199.0
+offset_top = 117.0
+offset_right = 467.0
+offset_bottom = 141.0
+max_value = 12.0
+
+[node name="VSlider" type="VSlider" parent="." unique_id=789374413]
+offset_left = 588.0
+offset_top = 227.0
+offset_right = 625.0
+offset_bottom = 527.0
+max_value = 1.0
+step = 0.001
+
+[node name="Label" type="Label" parent="." unique_id=406863262]
+offset_left = 94.0
+offset_top = 122.0
+offset_right = 159.0
+offset_bottom = 146.0
+text = "Sides:"
+
+[node name="Label3" type="Label" parent="." unique_id=1013272897]
+offset_left = 522.0
+offset_top = 256.0
+offset_right = 590.0
+offset_bottom = 280.0
+text = "Color:"
+
+[node name="Label2" type="Label" parent="." unique_id=526124686]
+offset_left = 593.0
+offset_top = 131.0
+offset_right = 633.0
+offset_bottom = 155.0
+text = "3"
+
+[node name="Node" type="Node" parent="." unique_id=1492187521]
+script = ExtResource("3_bypa8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Node" unique_id=346470568]
