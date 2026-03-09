@@ -21,7 +21,80 @@ Greetings fellow octopus
 - [GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)
 - [5 Games Made in Godot to inspire you each week](https://www.youtube.com/@stayathomedev) 
 
+
+## Week 7
+
+Reminder! This course is FULL-TIME and IN-PERSON. You should attend all lectures and labs to achieve the learning outcomes.
+
+## Lab
+- Open week7 scene and see how it works. Look at the script week_7.gd
+
+The code uses MIDI to play notes through a soundfont player. Key things to know:
+- Notes are numbers 0-127 (middle C is 60)
+- Channel 9 is always drums
+- Channels 0-8 are melodic instruments
+- `play_note(note, duration, channel)` plays a note and waits
+
+---
+
+## Exercise 1 – Make a Scale
+
+Write a loop that plays all the notes from 60 to 72 (that's one octave of C major), each for 0.3 seconds on channel 0.
+
+Then reverse it — make it go back down from 72 to 60.
+
+---
+
+## Exercise 2 – Change the Speed
+
+Wrap the scale loop it in another loop that runs 4 times. Each time through the outer loop, make the notes play slightly faster. Start at 0.5 seconds and reduce by 0.1 each time.
+
+What happens at 0.0 seconds?
+
+---
+
+## Exercise 3 – Drum Pattern
+
+The `drum_loop()` function picks random drum notes between 36 and 60. Change it so instead of random notes, it plays a repeating pattern you design yourself — something like kick, snare, kick, snare.
+
+Common drum MIDI notes:
+- 36 = Bass drum
+- 38 = Snare
+- 42 = Closed hi-hat
+- 46 = Open hi-hat
+- 49 = Crash cymbal
+
+Use a list and a loop to cycle through your pattern.
+
+---
+
+## Exercise 4 – Two Channels at Once
+
+Call `drum_loop()` and also write a new function called `melody_loop()` that plays a repeating melodic pattern on channel 0. Call both from `_ready()`.
+
+You'll need to use `change_instrument(0, X)` to pick a sound — try instrument 30 (electric guitar) or 40 (violin). A list of General MIDI instruments is easy to find online.
+
+---
+
+## Exercise 5 – Build a Song
+
+Design a function called `play_song()` that plays at least three different sections — for example a verse, a chorus, and a repeat of the verse. Each section should be its own loop. Use `change_instrument` to switch sounds between sections.
+
+There's no right answer — experiment and see what sounds good.
+
+---
+
+## Exercise 6 – The Slider Controls the Loop
+
+Currently the slider controls which note plays when you press the button. Modify the code so the slider controls the **tempo** of the drum loop instead — i.e. the duration between notes.
+
+You'll need to store the tempo in a variable that your loop reads each time around
+
+- Make a final audio recording and upload the file to Brightspace. Also a zip of your project
+
+
 ## Week 6
+## Lecture - Using MIDI
 
 ## Lab - Flower Jam
 Your task today is to go outdoors for a nice walk, in groups of two or three, and take photos of different flowers, plants and trees on the campus with your phones. Spend around half an hour doing this. Get a good variety.
