@@ -10,3 +10,11 @@ font = ExtResource("2_4eyg7")
 
 [node name="MidiPlayer" parent="." unique_id=1962151564 instance=ExtResource("3_dyjop")]
 soundfont = "res://assets/Aspirin-Stereo.sf2"
+
+[node name="CheckBox" type="CheckBox" parent="." unique_id=1075362171]
+offset_left = 93.0
+offset_top = 86.0
+offset_right = 129.0
+offset_bottom = 122.0
+
+[connection signal="toggled" from="CheckBox" to="." method="_on_check_box_toggled"]

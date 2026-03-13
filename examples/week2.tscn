@@ -19,3 +19,7 @@ shape = SubResource("RectangleShape2D_36mrl")
 
 [node name="Sprite2D" type="Sprite2D" parent="player" unique_id=267777801]
 texture = ExtResource("3_5mx80")
+
+[node name="CheckBox" type="CheckBox" parent="." unique_id=1183667265]
+offset_right = 36.0
+offset_bottom = 36.0
