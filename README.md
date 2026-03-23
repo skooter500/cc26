@@ -4,6 +4,8 @@
 Greetings fellow octopus
 ```
 
+# Hello from Rishi
+
 # Assessment
 - End of year programming test 33%
 - Weekly engagement mark 33%
