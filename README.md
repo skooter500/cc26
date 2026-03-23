@@ -42,7 +42,7 @@ Greetings fellow octopus
 
 - Star THIS repo
 - Fork THIS repo
-- Clone the fork
+- Clone the forknew
 - Configure the remotes 
 - Create a new branch
 - Make some changes
@@ -51,6 +51,8 @@ Greetings fellow octopus
 - Push
 
 You can focus on creating a repository for your assignment
+
+THis is what your assignment [README.MD](https://github.com/skooter500/csresources/blob/main/assignment/README.md) file should look like
 
 Submit the urls to repositories you create today on Brightspace.
 
@@ -61,7 +63,7 @@ If you misssed last weeks class do this:
 - Try this [step-by-step lab](https://github.com/skooter500/csresources/blob/main/gitlab.md). It is for Java, but you can adapt it. 
 - Install git for Windows on your laptop. Mac users, it's alreading installed. Use from terminal.
 
-![Screenshot of project](images/aistudent1.jpg)
+![AI Student](images/aistudent1.jpg)
 
 ## Week 8
 
